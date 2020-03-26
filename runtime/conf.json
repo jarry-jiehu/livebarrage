@@ -1,0 +1,36 @@
+{
+  "comet": {
+    "accept_interval": 2,
+    "group": "default",
+    "heartbeat_interval": 480,
+    "heartbeat_timeout": 500,
+    "idc": "tdxy",
+    "job_worker_count": 5000,
+    "max_bodylen": 20480,
+    "max_clients": 350000,
+    "mobile_heartbeat_interval": 480,
+    "mobile_heartbeat_timeout": 500,
+    "mobile_reconn_time": 60,
+    "num": "3",
+    "out_worker_count": 5000,
+    "port": "8080",
+    "public_address": "123.59.124.157:8080",
+    "reconn_time": 30,
+    "region": "online",
+    "router_heartbeat_interval": 240,
+    "router_heartbeat_timeout": 280,
+    "router_reconn_time": 10,
+    "worker_count": 5000
+  },
+  "zookeeper": {
+    "addr": "10.112.32.77:2181,10.112.37.9:2181,10.124.66.113:2181",
+    "enable": true,
+    "path": "/push",
+    "timeout": 30
+  },
+  "kafka":{
+    "addr":"10.110.126.127:19092,10.110.126.128:19092,10.112.36.178:19092",
+    "topic":"barrage"
+  }
+}
+

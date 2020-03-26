@@ -1,0 +1,6 @@
+output
+main
+output/*
+
+livebarrage.tgz
+.idea/*
